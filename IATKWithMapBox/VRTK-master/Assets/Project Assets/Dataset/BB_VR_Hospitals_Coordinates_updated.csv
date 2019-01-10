@@ -1,0 +1,138 @@
+﻿Object-ID,Hospital,Trauma Service Level,VSTORM_HospitalCode,XCoord,YCoord,Longitude_met,Latitude_met
+1,Beaufort & Skipton Health Service Skipton,Primary Care Service,43,143.367414,-37.684719,15959587.52,-4534982.424
+2,Western Hospital Footscray,Metropolitan Trauma Service,21,144.889097,-37.792106,16128980.5,-4550098.848
+3,The Royal Childrens Hospital Parkville,Major Trauma  Service,126,144.950351,-37.795431,16135799.26,-4550567.245
+4,Castlemaine Health,Urgent Care Service,113,144.212277,-37.052105,16053637.24,-4446372.043
+5,Portland District Health,Urgent Care Service,121,141.60519,-38.341203,15763417.64,-4627739.119
+6,Heywood Rural Health,Primary Care Service,196,141.624721,-38.136946,15765591.83,-4598789.794
+7,Rural Northwest Health Warracknabeal,Urgent Care Service,132,142.382057,-36.252292,15849898.08,-4335392.124
+8,Knox Private Hospital,Metropolitan Primary Care Service,193,145.226801,-37.849467,16166573.54,-4558182.32
+9,Alpine Health Mount Beauty,Urgent Care Service,35,147.169651,-36.743312,16382850.61,-4403387.93
+10,Northeast Health Wangaratta,Regional Trauma Service,13,146.314301,-36.354265,16287633.48,-4349477.822
+11,Seymour Health,Urgent Care Service,148,145.13879,-37.017691,16156776.2,-4441572.971
+12,Heathcote Health,Primary Care Service,103,144.709705,-36.925604,16109010.67,-4428742.011
+13,Benalla Health,Urgent Care Service,46,145.993499,-36.555317,16251921.97,-4377303.643
+14,Rosebud Hospital,Metropolitan Primary Care Service,125,144.884569,-38.361594,16128476.44,-4630633.607
+15,Inglewood & District Health Service,Primary Care Service,87,143.873394,-36.572585,16015912.96,-4379696.924
+16,Bairnsdale Regional Health Service,Urgent Care Service,40,147.606844,-37.830853,16431518.71,-4555558.494
+17,Ballarat Health Services Base Hospital,Regional Trauma Service,41,143.846971,-37.559589,16012971.56,-4517395.972
+18,East Wimmera Health Service Birchip,Primary Care Service,70,142.915891,-35.980167,15909324.21,-4297892.725
+19,Echuca Regional Health,Urgent Care Service,73,144.748525,-36.139128,16113332.1,-4319782.096
+20,Albury Base Hospital,Regional Trauma Service,151,146.938019,-36.078544,16357065.45,-4311434.294
+21,Apollo Bay Otway Health and Community Services,Urgent Care Service,118,143.664543,-38.753887,15992663.77,-4686479.061
+22,East Grampians Health Service Ararat,Urgent Care Service,66,142.932519,-37.27934,15911175.23,-4478115.035
+23,Goulburn Valley Health Shepparton,Regional Trauma Service,81,145.405769,-36.362638,16186496.16,-4350635.217
+24,East Wimmera Health Service St Arnaud,Urgent Care Service,69,143.246848,-36.609559,15946166.18,-4384823.184
+25,Timboon & District Healthcare Service,Urgent Care Service,10,142.977132,-38.486257,15916141.53,-4648347.196
+26,Latrobe Regional Hospital,Regional Trauma Service,94,146.470942,-38.219854,16305070.68,-4610530.534
+27,Rural Northwest Health Hopetoun,Primary Care Service,133,142.366638,-35.73053,15848181.65,-4263605.785
+28,West Wimmera Health Service Jeparit,Primary Care Service,17,141.984516,-36.14114,15805644.02,-4320059.438
+29,West Wimmera Health Service Kaniva,Primary Care Service,18,141.246061,-36.381186,15723439.59,-4353199.541
+30,Orbost Regional Health,Urgent Care Service,75,148.465489,-37.702117,16527102.64,-4537429.981
+31,Western District Health Service Penshurst,Primary Care Service,15,142.282252,-37.877704,15838787.84,-4562163.866
+32,West Wimmera Health Service Rainbow,Primary Care Service,20,141.99558,-35.9039,15806875.66,-4287406.204
+33,Kilmore and District Hospital,Urgent Care Service,89,144.957381,-37.3012,16136581.84,-4481173.754
+34,Edenhope and District Memorial Hospital,Urgent Care Service,74,141.288851,-37.035623,15728202.95,-4444073.338
+35,The Northern Hospital,Metropolitan Trauma Service,8,145.014288,-37.65128,16142916.7,-4530279.825
+36,Angliss Hospital,Metropolitan Primary Care Service,36,145.313837,-37.899016,16176262.34,-4565169.966
+37,Sandringham & District Memorial Hospital,Metropolitan Primary Care Service,134,145.01884,-37.961516,16143423.42,-4573990.74
+38,Sunshine Hospital,Metropolitan Primary Care Service,2,144.815624,-37.760623,16120801.52,-4545664.843
+39,Alpine Health Myrtleford,Urgent Care Service,34,146.729062,-36.554249,16333804.47,-4377155.64
+40,Gippsland Southern Health Service Leongatha,Urgent Care Service,78,145.95142,-38.487403,16247237.75,-4648510.175
+41,Nathalia District Hospital,Urgent Care Service,114,145.197573,-36.057236,16163319.89,-4308499.818
+42,Dunmunkle Health Service Rupanyup,Primary Care Service,,142.631546,-36.636666,15877671.07,-4388582.995
+43,Hepburn Health Service Creswick,Primary Care Service,84,143.891675,-37.420637,16017947.99,-4497901.472
+44,Hepburn Health Service Daylesford,Urgent Care Service,83,144.14652,-37.337703,16046317.21,-4486283.348
+45,Wimmera Health Care Group Dimboola,Primary Care Service,24,142.024342,-36.449679,15810077.43,-4362674.234
+46,East Wimmera Health Service Donald,Primary Care Service,68,142.976149,-36.366921,15916032.1,-4351227.302
+47,Werribee Mercy Hospital,Metropolitan Primary Care Service,106,144.698951,-37.885669,16107813.54,-4563287.243
+48,Numurkah District Health Service,Urgent Care Service,115,145.443559,-36.099345,16190702.93,-4314299.715
+49,Yea & District Memorial Hospital,Urgent Care Service,30,145.430881,-37.213661,16189291.62,-4468930.367
+50,Mansfield District Hospital,Urgent Care Service,99,146.086509,-37.057605,16262275.79,-4447139.226
+51,Boort District Hospital,Primary Care Service,49,143.727462,-36.111343,15999667.88,-4315952.833
+52,Alpine Health Bright,Urgent Care Service,33,146.966367,-36.732993,16360221.14,-4401954.516
+53,South West Healthcare Camperdown,Urgent Care Service,137,143.137817,-38.236754,15934028.9,-4612925.412
+54,East Wimmera Health Service Charlton,Primary Care Service,71,143.345914,-36.271053,15957194.15,-4337982.23
+55,Cobram District Hospital,Urgent Care Service,58,145.651093,-35.91653,16213805.51,-4289142.099
+56,Colac Area Health,Urgent Care Service,60,143.582773,-38.340941,15983561.18,-4627701.934
+57,Upper Murray Health and Community Services Corryong,Urgent Care Service,12,147.90333,-36.198772,16464523.38,-4328006.675
+58,West Gippsland Healthcare Group Warragul,Urgent Care Service,16,145.928125,-38.172667,16244644.57,-4603846.667
+59,Hesse Rural Health Service Winchelsea,Urgent Care Service,85,143.98494,-38.243425,16028330.2,-4613870.904
+60,East Wimmera Health Service Wycheproof,Primary Care Service,72,143.234002,-36.079248,15944736.17,-4311531.261
+61,Yarram & District Health Service,Urgent Care Service,28,146.677719,-38.556927,16328088.99,-4658402.431
+62,Monash Medical Centre Clayton,Metropolitan Trauma Service,109,145.121128,-37.920132,16154810.07,-4568149.279
+63,Maldon Hospital & Community Care Service,Primary Care Service,96,144.064222,-36.993236,16037155.83,-4438164.015
+64,Box Hill Hospital,Metropolitan Trauma Service,50,145.11871,-37.814105,16154540.9,-4553198.266
+65,Casterton Memorial Hospital,Urgent Care Service,54,141.392448,-37.590567,15739735.31,-4521747.033
+66,Dandenong Hospital,Metropolitan Trauma Service,62,145.216463,-37.975829,16165422.72,-4576011.824
+67,Lorne Community Hospital,Urgent Care Service,95,143.980829,-38.545479,16027872.57,-4656772.889
+68,Stawell Regional Health,Urgent Care Service,1,142.780901,-37.058849,15894297.19,-4447312.756
+69,Omeo District Health,Primary Care Service,117,147.596878,-37.098108,16430409.3,-4452790.614
+70,Robinvale District Health Services,Primary Care Service,123,142.781005,-34.584113,15894308.77,-4107506.41
+71,Rochester & Elmore District Health Service Rochester,Primary Care Service,124,144.697937,-36.365813,16107700.67,-4351074.128
+72,Swan Hill District Hospital Swan Hill,Urgent Care Service,3,143.556639,-35.340124,15980651.95,-4210199.24
+73,Djerriwarrh Health Service Bacchus Marsh,Primary Care Service,64,144.434693,-37.67825,16078396.48,-4534072.509
+74,Tallangatta Health Service,Primary Care Service,5,147.183559,-36.213789,16384398.84,-4330078.424
+75,Kyneton District Health Services,Urgent Care Service,93,144.469165,-37.254364,16082233.88,-4474621.404
+76,Maryborough District Health Service Maryborough,Urgent Care Service,101,143.738422,-37.045256,16000887.94,-4445416.769
+77,Bendigo Health,Regional Trauma Service,47,144.280554,-36.749216,16061237.8,-4404208.142
+78,Moyne Health Services Port Fairy,Urgent Care Service,112,142.227167,-38.381479,15832655.81,-4633457.054
+79,Beaufort and Skipton Health Service Beaufort,Primary Care Service,44,143.382292,-37.431039,15961243.73,-4499359.583
+80,Kerang District Health,Urgent Care Service,88,143.916812,-35.724388,16020746.23,-4262763.556
+81,Euroa Health Inc,Primary Care Service,181,145.570011,-36.759688,16204779.5,-4405663.119
+82,Kyabram & District Health Services,Urgent Care Service,92,145.042637,-36.315459,16146072.49,-4344115.314
+83,The Williamstown Hospital,Metropolitan Primary Care Service,22,144.892507,-37.86333,16129360.1,-4560136.875
+84,Beechworth Health Service,Primary Care Service,45,146.691469,-36.349585,16329619.63,-4348830.962
+85,St Vincents Private Hospital Fitzroy,Metropolitan Trauma Service,141,144.976058,-37.807857,16138660.95,-4552317.897
+86,Maroondah Hospital,Metropolitan Trauma Service,100,145.25363,-37.806759,16169560.13,-4552163.192
+87,Bass Coast Regional Health Wonthaggi,Urgent Care Service,26,145.580924,-38.607307,16205994.33,-4665576.753
+88,Frankston Hospital,Metropolitan Trauma Service,76,145.129668,-38.150703,16155760.74,-4600737.022
+89,Royal Melbourne Hospital Parkville,Major Trauma  Service,128,144.955671,-37.79931,16136391.48,-4551113.711
+90,Yarrawonga District Health Service,Urgent Care Service,29,146.006663,-36.011199,16253387.38,-4302162.447
+91,Mildura Base Hospital,Regional Trauma Service,107,142.144556,-34.185034,15823459.59,-4053674.715
+92,Cohuna District Hospital,Urgent Care Service,59,144.214445,-35.799279,16053878.58,-4273037.505
+93,Casey Hospital,Metropolitan Primary Care Service,238,145.345815,-38.045255,16179822.11,-4585820.801
+94,The Alfred,Major Trauma  Service,7,144.983382,-37.845684,16139476.26,-4557649.015
+95,Central Gippsland Health Service Sale,Urgent Care Service,56,147.081389,-38.108921,16373025.33,-4594824.144
+96,Austin Health The Austin Hospital,Metropolitan Trauma Service,37,145.059032,-37.755484,16147897.58,-4544941.256
+97,West Wimmera Health Service Nhill,Urgent Care Service,19,141.655401,-36.333891,15769007.11,-4346662.055
+98,Mallee Track Health and Community Service Ouyen,Primary Care Service,97,142.312039,-35.073865,15842103.72,-4173923.639
+99,St John of God Ballarat Hospital,Urgent Care Service,159,143.847866,-37.557401,16013071.19,-4517088.722
+100,South West Healthcare Warrnambool,Regional Trauma Service,138,142.473038,-38.380068,15860026.04,-4633256.683
+101,Albury Wodonga Health - Wodonga,Urgent Care Service,25,146.879825,-36.131978,16350587.33,-4318796.57
+102,Gippsland Southern Health Service Korumburra,Urgent Care Service,77,145.82944,-38.430385,16233659,-4640404.462
+103,South Gippsland Hospital Foster,Urgent Care Service,136,146.206706,-38.658474,16275656.06,-4672868.305
+104,Western District Health Service Hamilton,Regional Trauma Service,14,142.03052,-37.737069,15810765.16,-4542348.778
+105,University Hospital Geelong,Regional Trauma Service,42,144.365965,-38.151297,16070745.71,-4600821.107
+106,Epworth Richmond,Metropolitan Primary Care Service,184,144.992873,-37.81745,16140532.79,-4553669.62
+107,Alexandra District Health,Urgent Care Service,32,145.717645,-37.194204,16221214.04,-4466211.001
+108,Moorabbin Hospital,Metropolitan Primary Care Service,110,145.063747,-37.920984,16148422.45,-4568269.508
+109,Wimmera Health Care Group Horsham,Regional Trauma Service,23,142.208592,-36.711856,15830588.05,-4399018.973
+110,Balmoral Bush Nursing Centre,Primary Care Service,155,141.841037,-37.245341,15789672.01,-4473359.555
+111,Cobden District Health Service,Primary Care Service,153,143.076386,-38.331679,15927190.43,-4626387.473
+112,Dartmoor and District Bush Nursing Centre Inc.,Primary Care Service,188,141.275405,-37.924011,15726706.15,-4568696.67
+113,Hesse Rural Health Service (Rokewood),Primary Care Service,,143.72102,-37.901167,15998950.76,-4565473.417
+114,Hesse Rural Health Service (Beeac),Primary Care Service,,143.643073,-38.193852,15990273.74,-4606846.909
+115,South West Health Care (Lismore),Primary Care Service,189,143.336636,-37.95269,15956161.33,-4572744.651
+116,Terang and Mortlake Health Service (Mortlake),Primary Care Service,6,142.812745,-38.082665,15897842.05,-4591110.196
+117,Western District Health Service (Merino),Primary Care Service,,141.547613,-37.718564,15757008.2,-4539744.279
+118,Buchan Bush Nursing Centre,Primary Care Service,156,148.171989,-37.497993,16494430.37,-4508749.784
+119,Cann Valley Bush Nursing Centre,Primary Care Service,157,149.151539,-37.563488,16603473.37,-4517943.512
+120,Dargo Bush Nursing Centre Inc.,Primary Care Service,179,147.250965,-37.464543,16391902.44,-4504057.419
+121,Ensay Bush Nursing Service Inc. ,Primary Care Service,,147.835115,-37.375402,16456929.72,-4491562.963
+122,Gelantipy District Bush Nursing Centre,Primary Care Service,180,148.268372,-37.187055,16505159.67,-4465212.013
+123,Heyfield Hospital Inc.,Primary Care Service,177,146.783994,-37.976296,16339919.47,-4576077.774
+124,Neerim District Soldiers Memorial Hospital,Primary Care Service,158,145.953891,-38.022459,16247512.83,-4582599.002
+125,Swifts Creek Bush Nursing Centre Inc,Primary Care Service,172,147.723279,-37.262291,16444480.2,-4475730.103
+126,Ballan District Health and Care,Primary Care Service,154,144.222782,-37.599166,16054806.65,-4522955.14
+127,Elmhurst Bush Nursing Centre,Primary Care Service,190,143.247711,-37.177118,15946262.25,-4463823.591
+128,Lake Bolac Bush Nursing Centre,Primary Care Service,185,142.838116,-37.714543,15900666.34,-4539178.427
+129,Woomelang Bush Nursing Centre,Primary Care Service,,142.665179,-35.681723,15881415.08,-4256914.862
+130,Falls Creek Medical Centre,Primary Care Service,186,147.277391,-36.862063,16394844.17,-4419897.549
+131,Mt Buller Medical Centre,Primary Care Service,31,146.445264,-37.146107,16302212.22,-4459491.833
+132,Mt Hotham Medical Centre,Primary Care Service,192,147.14231,-36.983368,16379807.02,-4436788.754
+133,Nagambie Medical Centre,Primary Care Service,195,145.150366,-36.780688,16158064.83,-4408581.451
+134,Violet Town Bush Nursing Centre,Primary Care Service,197,145.716578,-36.636807,16221095.26,-4388602.555
+135,Walwa Bush Nursing Centre,Primary Care Service,160,147.733374,-35.964443,16445603.97,-4295729.886
+136,Dingee Bush Nursing Centre Inc.,Primary Care Service,210,144.230907,-36.372982,16055711.12,-4352065.235
+137,Lockington and District Bush Nursing Centre Inc.,Primary Care Service,202,144.531195,-36.271251,16089139.03,-4338009.569
