@@ -73,7 +73,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
         if (isPanDisable) return;
 
-        if (isPanning)
+        if (isPanning && e.target.name == "BaseFloor")
         {
 
             previousPosition = (previousPosition == null) ? e.destinationPosition : previousPosition;
@@ -117,10 +117,12 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
             {
                 Debug.Log(currentPosition);
                 abstractMap.Zoom(currentPosition, 0.01f);
+               
             }
             else
             {
                 abstractMap.Zoom(currentPosition, -0.01f);
+             
             }
         }
 

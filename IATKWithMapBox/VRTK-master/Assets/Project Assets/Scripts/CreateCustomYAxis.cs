@@ -30,8 +30,9 @@ public class CreateCustomYAxis : MonoBehaviour {
         Axis = Instantiate(NewAxis); // create copy of prefab Axis 
         SetUpMenu();
         SetUpAxis();
-        //  _viz.height = _viz.yDimension.maxScale;
-        SceneObjects.transform.position =new Vector3(SceneObjects.transform.position.x, ZeroYPosition-.07f, SceneObjects.transform.position.z) ;
+       // float distance = Vector3.Distance(Axis.transform.Find("LowPos").position - SceneObjects);
+        SceneObjects.transform.position =new Vector3(SceneObjects.transform.position.x, Axis.transform.Find("LowPos").position.y +.01f, SceneObjects.transform.position.z) ;
+        Axis.transform.Find("SideCone").position = new Vector3(Axis.transform.Find("SideCone").position.x, Axis.transform.Find("LowPos").position.y - .095f, Axis.transform.Find("SideCone").position.z);
     }
     private void SetUpAxis()
     {
@@ -83,7 +84,7 @@ public class CreateCustomYAxis : MonoBehaviour {
     {
         Vector3 temp = SceneObjects.transform.position;
         temp.y = floorSlider.value;
-    //    SceneObjects.transform.localPosition = temp;
+      SceneObjects.transform.localPosition = temp;
       
     }
   
@@ -99,16 +100,16 @@ public class CreateCustomYAxis : MonoBehaviour {
         Axis.transform.Find("SideCone/Value").GetComponent<TextMesh>().text = Math.Round(CurrentDataValue, 0).ToString();
         _viz.transform.Find("View/BigMesh").GetComponent<Renderer>().material.SetFloat("_cutoffHeight", NormalisedValue); // change the level of the shader by the smaller cone 
         Axis.transform.Find("Label").GetComponent<TextMesh>().text = _viz.yDimension.Attribute;// label name for custom y axis 
-        
-        if(CurrentDataValue == 0f)
+
+        if (CurrentDataValue == 0f)
         {
-             ZeroYPosition = Axis.transform.Find("SideCone").position.y;
+            ZeroYPosition = Axis.transform.Find("SideCone").position.y;
         }
 
-        //if(Axis.transform.Find("SideCone").position.y <= ZeroYPosition)
-        //{
-        //    Axis.transform.Find("SideCone").position = new Vector3(Axis.transform.Find("SideCone").position.x, ZeroYPosition, Axis.transform.Find("SideCone").position.z);
-        //}
+        if (Axis.transform.Find("SideCone").position.y <= ZeroYPosition)
+        {
+            Axis.transform.Find("SideCone").position = new Vector3(Axis.transform.Find("SideCone").position.x, ZeroYPosition, Axis.transform.Find("SideCone").position.z);
+        }
 
         Vector3 LineVector = Axis.transform.Find("Cylinder").position - Axis.transform.Find("TopCone").position;
         if (LineVector.magnitude <= 0.6700001f)

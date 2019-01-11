@@ -7612,7 +7612,7 @@ MonoBehaviour:
   followsPosition: 1
   smoothsPosition: 0
   maxAllowedPerFrameDistanceDifference: 0.003
-  followsRotation: 1
+  followsRotation: 0
   smoothsRotation: 0
   maxAllowedPerFrameAngleDifference: 1.5
   followsScale: 0

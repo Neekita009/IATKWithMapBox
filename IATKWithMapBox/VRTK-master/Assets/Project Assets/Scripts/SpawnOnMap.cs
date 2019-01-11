@@ -86,25 +86,27 @@
 
             var width = (centerGeo - zExtremeAxisGeo).magnitude;
             var Depth = (centerGeo - xExtremeAxisGeo).magnitude;
-
-            _viz.transform.position = centerGeo;
+            //   transform.position =
+          
+       //     _viz.transform.position=  Vector3.Lerp(_viz.transform.position, centerGeo, Time.deltaTime * .02f);
             _viz.width = width;
             _viz.depth = Depth;
+            _viz.transform.position = centerGeo;
             // position of the mark viz 
             //     _markViz.transform.position = centerGeo;
             //      _markViz.width = width;
             //      _markViz.depth = Depth;
             //      _markViz.height = -.5f;
 
-            if (_viz.zDimension.Attribute == "Undefined")
-            {
+            //if (_viz.zDimension.Attribute == "Undefined")
+            //{
 
-                _viz.height = _map.Options.locationOptions.zoom / 5;
-            }
-            else
-            {
-                _viz.height = _viz.zDimension.maxScale;
-            }
+            //    _viz.height = _map.Options.locationOptions.zoom / 5;
+            //}
+            //else
+            //{
+            //    _viz.height = _viz.zDimension.maxScale;
+            //}
 
         }
 
