@@ -17,7 +17,7 @@
         [SerializeField]
         AbstractMap _map;
         public Visualisation _viz;
-        // public Visualisation _markViz;
+     //   public Visualisation HospitalViz;
         public CSVDataSource mySourceData;
 
 
@@ -25,8 +25,10 @@
         private string xExtremeAxis;
         private string zExtremeAxis;
         private string center;
- 
-      void Start()
+        private float smoothTime = 0.003F;
+        private Vector3 velocity = Vector3.zero;
+
+        void Start()
         {
             // obtaining the  maximum and minimum latitiude and longitude from the graph 
             object maxlongitute = _viz.dataSource.getOriginalValue(mySourceData["X"].Data.Max(), "X");
@@ -46,14 +48,15 @@
 
             // Assigning the position to the visulization by making center of the visulization fixed  
             _viz.transform.position = centerGeo;
-
+         //   HospitalViz.transform.position = centerGeo;
             // calculating the length of x and z axis for width and depth of the graph respectively  
             var width = (centerGeo - zExtremeAxisGeo).magnitude;
             var Depth = (centerGeo - xExtremeAxisGeo).magnitude;
             _viz.width = width;
             _viz.depth = Depth;
-
-            //height of the graph 
+            //HospitalViz.width = width;
+            //HospitalViz.depth = Depth;
+          //  height of the graph
             // when z-axis is not defined 
             if (_viz.zDimension.Attribute == "Undefined")
             {
@@ -86,34 +89,23 @@
 
             var width = (centerGeo - zExtremeAxisGeo).magnitude;
             var Depth = (centerGeo - xExtremeAxisGeo).magnitude;
-            //   transform.position =
-          
-       //     _viz.transform.position=  Vector3.Lerp(_viz.transform.position, centerGeo, Time.deltaTime * .02f);
+        
             _viz.width = width;
             _viz.depth = Depth;
             _viz.transform.position = centerGeo;
             // position of the mark viz 
-            //     _markViz.transform.position = centerGeo;
-            //      _markViz.width = width;
-            //      _markViz.depth = Depth;
-            //      _markViz.height = -.5f;
+            //HospitalViz.transform.position = centerGeo;
+            //HospitalViz.width = width;
+            //HospitalViz.depth = Depth;
+            //   HospitalViz.height = -.5f;
 
-            //if (_viz.zDimension.Attribute == "Undefined")
-            //{
-
-            //    _viz.height = _map.Options.locationOptions.zoom / 5;
-            //}
-            //else
-            //{
-            //    _viz.height = _viz.zDimension.maxScale;
-            //}
 
         }
 
 
         private void Update()
         {
-
-                  }
+          
+        }
     }
 }

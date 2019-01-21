@@ -9,7 +9,7 @@ using Mapbox.Unity.Map;
 using Mapbox.Unity.MeshGeneration.Factories;
 using Mapbox.Unity.Utilities;
 using Mapbox.Examples;
-
+using UnityEngine.UI;
 public class AbstractMapInteractionVRTK : MonoBehaviour {
     public enum EventQuickSelect
     {
@@ -63,17 +63,17 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
     public float s = 20;
     public float r = 1.5f;
     public float maxSpeed = 100f;
-    bool createBool = false;
-
+    private string PointedObject; 
     public CreateCustomYAxis Y_Axis;
-    
+   
+    public GameObject CustomYAxis;
     void DoPointing(object sender, DestinationMarkerEventArgs e)
     {
         currentPosition = e.destinationPosition;
-
+       
         if (isPanDisable) return;
-
-        if (isPanning && e.target.name == "BaseFloor")
+        PointedObject = e.target.name;
+        if (isPanning && PointedObject == "BaseFloor" && Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.Idle)
         {
 
             previousPosition = (previousPosition == null) ? e.destinationPosition : previousPosition;
@@ -99,7 +99,6 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
     }
 
-  
 
     private void Start()
     {
@@ -107,11 +106,13 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
         {
             pointerEvents.DestinationMarkerHover += new DestinationMarkerEventHandler(DoPointing);
         }
+
     }
+    
 
     private void Update()
     {
-        if (isZooming)
+        if (isZooming && PointedObject == "BaseFloor" && !Y_Axis.IsChangePosition)
         {
             if(touchPadAxisValue.y > 0)
             {
@@ -384,6 +385,11 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
     {
         if (triggerButtonEvents)
         {
+            if(Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
+            {
+
+                Y_Axis.ChangePosition(currentPosition);
+            }
         }
     }
 
@@ -545,6 +551,10 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
     private void DoTouchpadPressed(object sender, ControllerInteractionEventArgs e)
     {
+        if (Y_Axis.IsChangePosition && PointedObject == "BaseFloor")
+        {
+            Y_Axis.ChangePosition(currentPosition);
+        }
         if (touchpadButtonEvents)
         {
             
@@ -559,7 +569,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
 
 
-                    Y_Axis.ChangePosition(currentPosition);
+              //      Y_Axis.ChangePosition(currentPosition);
 
 
 
