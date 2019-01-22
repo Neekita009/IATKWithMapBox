@@ -96,7 +96,6 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
             previousPosition = e.destinationPosition;
         }
     
-
     }
 
 
@@ -112,7 +111,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
     private void Update()
     {
-        if (isZooming && PointedObject == "BaseFloor" && !Y_Axis.IsChangePosition)
+        if (isZooming && PointedObject == "BaseFloor" )
         {
             if(touchPadAxisValue.y > 0)
             {
@@ -128,10 +127,6 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
         }
 
 
-   //     float rotation = VRTK_DeviceFinder.GetControllerRightHand().transform.rotation.x;
-  //      Vector3 forward = VRTK_DeviceFinder.GetControllerRightHand().transform.forward;
-
- //       Debug.Log(rotation);
     }
 
 
@@ -551,10 +546,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
 
     private void DoTouchpadPressed(object sender, ControllerInteractionEventArgs e)
     {
-        if (Y_Axis.IsChangePosition && PointedObject == "BaseFloor")
-        {
-            Y_Axis.ChangePosition(currentPosition);
-        }
+    
         if (touchpadButtonEvents)
         {
             
