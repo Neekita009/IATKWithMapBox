@@ -66,8 +66,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
     private string PointedObject; 
     public CreateCustomYAxis Y_Axis;
    
-    
-    void DoPointing(object sender, DestinationMarkerEventArgs e)
+   void DoPointing(object sender, DestinationMarkerEventArgs e)
     {
         currentPosition = e.destinationPosition;
        
