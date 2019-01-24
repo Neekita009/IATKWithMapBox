@@ -28,6 +28,7 @@
         private float smoothTime = 0.003F;
         private Vector3 velocity = Vector3.zero;
 
+
         void Start()
         {
             // obtaining the  maximum and minimum latitiude and longitude from the graph 
@@ -48,14 +49,13 @@
 
             // Assigning the position to the visulization by making center of the visulization fixed  
             _viz.transform.position = centerGeo;
-         //   HospitalViz.transform.position = centerGeo;
+        
             // calculating the length of x and z axis for width and depth of the graph respectively  
             var width = (centerGeo - zExtremeAxisGeo).magnitude;
             var Depth = (centerGeo - xExtremeAxisGeo).magnitude;
             _viz.width = width;
             _viz.depth = Depth;
-            //HospitalViz.width = width;
-            //HospitalViz.depth = Depth;
+         
           //  height of the graph
             // when z-axis is not defined 
             if (_viz.zDimension.Attribute == "Undefined")
@@ -93,11 +93,7 @@
             _viz.width = width;
             _viz.depth = Depth;
             _viz.transform.position = centerGeo;
-            // position of the mark viz 
-            //HospitalViz.transform.position = centerGeo;
-            //HospitalViz.width = width;
-            //HospitalViz.depth = Depth;
-            //   HospitalViz.height = -.5f;
+         
 
 
         }

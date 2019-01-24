@@ -1,4 +1,4 @@
-﻿using IATK;
+﻿﻿using IATK;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -42,7 +42,7 @@ public class BrushingAndLinking : MonoBehaviour
     public Color brushColor = Color.red;
 
     [SerializeField]
-    [Range (1f,10f)]
+    [Range(1f, 10f)]
     public float brushSizeFactor = 1f;
 
     [SerializeField]
@@ -307,7 +307,7 @@ public class BrushingAndLinking : MonoBehaviour
                 v.BigMesh.SharedMaterial.SetFloat("_DataHeight", texSize);
                 v.BigMesh.SharedMaterial.SetFloat("showBrush", Convert.ToSingle(showBrush));
                 v.BigMesh.SharedMaterial.SetColor("brushColor", brushColor);
-            }            
+            }
         }
 
         foreach (var item in brushedLinkingVisualisations)

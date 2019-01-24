@@ -125,7 +125,14 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
              
             }
         }
+        if (triggerButtonEvents)
+        {
+            if (Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
+            {
 
+                Y_Axis.ChangePosition(currentPosition);
+            }
+        }
 
     }
 
@@ -384,6 +391,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
             {
 
                 Y_Axis.ChangePosition(currentPosition);
+                Y_Axis.axisEvent = CreateCustomYAxis.AxisEvent.Idle;
             }
         }
     }

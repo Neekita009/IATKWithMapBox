@@ -143,7 +143,7 @@ public class CreatePrefabs : MonoBehaviour
             }
 
         });
-    }
+    } 
 
     // adding the attributes to the dropdown from the visulization 
     private List<string> GetAttributesList(Visualisation viz)

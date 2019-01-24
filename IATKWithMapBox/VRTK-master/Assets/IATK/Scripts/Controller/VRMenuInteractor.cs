@@ -161,6 +161,7 @@ namespace IATK
              
                 visualisation.geometry =(AbstractVisualisation.GeometryType) GeoShapes.value;
                 visualisation.updateViewProperties(AbstractVisualisation.PropertyType.GeometryType);
+               
             }
         }
         public void ValidateY_AxisDropdown()

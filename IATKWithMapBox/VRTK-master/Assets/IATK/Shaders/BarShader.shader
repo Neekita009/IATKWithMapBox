@@ -257,7 +257,7 @@ Shader "IATK/BarShader"
 
 					// FACE 1
 
-//					pIn.isBrushed = isBrushed;
+				//	pIn.isBrushed = isBrushed;
 					pIn.color = color;
 
 					// FACE 1
