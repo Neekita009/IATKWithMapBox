@@ -16,7 +16,7 @@
   
      ⦁	AbstractMapInteraction
      ⦁	AbstractMapInteractionVRTK
-                  ⦁	Y_Axies - ProjectAssets/Script/CreateCustomYAxis
+                  ⦁	YAxis - ProjectAssets/Script/CreateCustomYAxis
                   ⦁	AbstractMap- Map form the scene
                   ⦁	Controller Event- RightControllerScriptAlias(VRTK_ControllerEvent)
                   ⦁	PointerEvent- RightControllerScriptAlias(VRTK_Pointer)	
@@ -30,7 +30,7 @@
                   ⦁	DataScource -DataSource form the scene
                   ⦁	X_Axis - Longitute_met
                   ⦁	Y_Axis - Some Other Attribute 
-                  ⦁	Z_Axies-Latitude_met
+                  ⦁	Z_Axis-Latitude_met
                   ⦁	Geometry-bars
                   
       ⦁	Map - MapBox. Add following Script 
