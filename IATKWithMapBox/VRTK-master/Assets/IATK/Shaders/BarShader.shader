@@ -371,30 +371,30 @@ Shader "IATK/BarShader"
 					triStream.RestartStrip();
 
 					// FACE 5
-					worldNormal = UnityObjectToWorldNormal(nD);
-					nl = max(0, dot(worldNormal, _WorldSpaceLightPos0.xyz));
-					pIn.color = float4(_LightColor0.rgb * nl, color.a);
-					pIn.color.rgb += ShadeSH9(half4(worldNormal, 1));
-					pIn.color.rgb *= color.rgb;
+					//worldNormal = UnityObjectToWorldNormal(nD);
+					//nl = max(0, dot(worldNormal, _WorldSpaceLightPos0.xyz));
+					//pIn.color = float4(_LightColor0.rgb * nl, color.a);
+					//pIn.color.rgb += ShadeSH9(half4(worldNormal, 1));
+					//pIn.color.rgb *= color.rgb;
 
 
-					pIn.vertex = UnityObjectToClipPos(pNWD);
-					pIn.tex0 = float2(1.0f, 0.0f);
-					triStream.Append(pIn);
+					//pIn.vertex = UnityObjectToClipPos(pNWD);
+					//pIn.tex0 = float2(1.0f, 0.0f);
+					//triStream.Append(pIn);
 
-					pIn.vertex = UnityObjectToClipPos(pNED);
-					pIn.tex0 = float2(1.0f, 1.0f);
-					triStream.Append(pIn);
+					//pIn.vertex = UnityObjectToClipPos(pNED);
+					//pIn.tex0 = float2(1.0f, 1.0f);
+					//triStream.Append(pIn);
 
-					pIn.vertex = UnityObjectToClipPos(pSWD);
-					pIn.tex0 = float2(0.0f, 0.0f);
-					triStream.Append(pIn);
+					//pIn.vertex = UnityObjectToClipPos(pSWD);
+					//pIn.tex0 = float2(0.0f, 0.0f);
+					//triStream.Append(pIn);
 
-					pIn.vertex = UnityObjectToClipPos(pSED);
-					pIn.tex0 = float2(0.0f, 1.0f);
-					triStream.Append(pIn);
+					//pIn.vertex = UnityObjectToClipPos(pSED);
+					//pIn.tex0 = float2(0.0f, 1.0f);
+					//triStream.Append(pIn);
 
-					triStream.RestartStrip();
+					//triStream.RestartStrip();
 
 					// FACE 6
 					worldNormal = UnityObjectToWorldNormal(nE);
@@ -459,7 +459,7 @@ Shader "IATK/BarShader"
 	//					return brushColor;
 					//else 
 						if (dy*input.oY < _cutoffHeight)
-						return float4(1,0,0,1); 
+						return float4(1,0,0,.5); 
 					else
 						return input.color;	
 						//return float4(input.oY,0,0,1);

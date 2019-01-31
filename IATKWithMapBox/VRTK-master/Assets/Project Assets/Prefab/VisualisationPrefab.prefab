@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4581117576934718}
   - component: {fileID: 114977588182604830}
   - component: {fileID: 114797313960778856}
+  - component: {fileID: 114136144557569638}
   m_Layer: 0
   m_Name: VisualisationPrefab
   m_TagString: Untagged
@@ -35,12 +36,30 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1563500435822388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0057195425, y: -0.18, z: -2.4143128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114136144557569638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1563500435822388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a371c45608c2e458976fa2e69ab4a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualisationReference: {fileID: 114977588182604830}
+  viewList: []
+  GameObject_Axes_Holders: []
+  X_AXIS: {fileID: 0}
+  Y_AXIS: {fileID: 0}
+  Z_AXIS: {fileID: 0}
+  serializedObjectPath: SerializedFields
 --- !u!114 &114797313960778856
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -77,7 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataSource: {fileID: 0}
   geometry: 0
-  colour: {r: 1, g: 1, b: 1, a: 1}
+  colour: {r: 0.17941189, g: 0.037931025, b: 1, a: 0.616}
   size: 0.3
   minSize: 0.01
   maxSize: 1
@@ -147,5 +166,5 @@ MonoBehaviour:
   height: 1
   depth: 1
   colorPaletteDimension: 
-  theVisualizationObject: {fileID: 0}
+  theVisualizationObject: {fileID: 114136144557569638}
   uid: 0630ea41

@@ -64,7 +64,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
     public float r = 1.5f;
     public float maxSpeed = 100f;
     private string PointedObject; 
-    public CreateCustomYAxis Y_Axis;
+    public CreateCustomYAxis YAxis;
    
    void DoPointing(object sender, DestinationMarkerEventArgs e)
     {
@@ -72,7 +72,7 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
        
         if (isPanDisable) return;
         PointedObject = e.target.name;
-        if (isPanning && PointedObject == "BaseFloor" && Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.Idle)
+        if (isPanning && PointedObject == "BaseFloor" && YAxis.axisEvent == CreateCustomYAxis.AxisEvent.Idle)
         {
 
             previousPosition = (previousPosition == null) ? e.destinationPosition : previousPosition;
@@ -126,10 +126,10 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
         }
         if (triggerButtonEvents)
         {
-            if (Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
+            if (YAxis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
             {
 
-                Y_Axis.ChangePosition(currentPosition);
+                YAxis.ChangePosition(currentPosition);
             }
         }
 
@@ -386,11 +386,11 @@ public class AbstractMapInteractionVRTK : MonoBehaviour {
     {
         if (triggerButtonEvents)
         {
-            if(Y_Axis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
+            if(YAxis.axisEvent == CreateCustomYAxis.AxisEvent.DragAround && PointedObject == "BaseFloor")
             {
 
-                Y_Axis.ChangePosition(currentPosition);
-                Y_Axis.axisEvent = CreateCustomYAxis.AxisEvent.Idle;
+                YAxis.ChangePosition(currentPosition);
+                YAxis.axisEvent = CreateCustomYAxis.AxisEvent.Idle;
             }
         }
     }

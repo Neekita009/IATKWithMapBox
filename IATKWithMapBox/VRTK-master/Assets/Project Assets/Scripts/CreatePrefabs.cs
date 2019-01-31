@@ -67,6 +67,7 @@ public class CreatePrefabs : MonoBehaviour
             Toggle MenuToggle = cube.transform.Find("Canvas/MenuToggle").GetComponent<Toggle>();
             Toggle DestroyToggle = cube.transform.Find("Canvas/DestroyToggle").GetComponent<Toggle>();
             DestroyToggle.name = CloneName.ToString();
+           // MenuToggle.GetComponent<Toggle>().act = false;
 
 
             // adding attribute to the dropdown and attaching it to the visulization  
@@ -104,6 +105,7 @@ public class CreatePrefabs : MonoBehaviour
 
     private void CreateAxisDropDown(Visualisation viz, GameObject Cube)
     {
+        // creating dropdowns for each graph
            DataAttributesNames = GetAttributesList(viz);
            Dropdown X_AxisDropDown = Cube.transform.Find("Canvas/DummyXAxis/Canvas/Dropdown").GetComponent<Dropdown>();
            Dropdown Y_AxisDropDown = Cube.transform.Find("Canvas/DummyYAxis/Canvas/Dropdown").GetComponent<Dropdown>();

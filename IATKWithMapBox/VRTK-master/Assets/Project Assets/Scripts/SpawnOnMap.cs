@@ -1,4 +1,4 @@
-﻿namespace Mapbox.Examples
+﻿ namespace Mapbox.Examples
 {
     using UnityEngine;
     using Mapbox.Utils;
@@ -17,7 +17,7 @@
         [SerializeField]
         AbstractMap _map;
         public Visualisation _viz;
-     //   public Visualisation HospitalViz;
+        public Visualisation HospitalViz;
         public CSVDataSource mySourceData;
 
 
@@ -49,14 +49,19 @@
 
             // Assigning the position to the visulization by making center of the visulization fixed  
             _viz.transform.position = centerGeo;
-        
+          
             // calculating the length of x and z axis for width and depth of the graph respectively  
             var width = (centerGeo - zExtremeAxisGeo).magnitude;
             var Depth = (centerGeo - xExtremeAxisGeo).magnitude;
             _viz.width = width;
             _viz.depth = Depth;
-         
-          //  height of the graph
+            if (HospitalViz != null)
+            {
+                HospitalViz.transform.position = centerGeo;
+                HospitalViz.width = width;
+                HospitalViz.depth = Depth;
+            }
+            //  height of the graph
             // when z-axis is not defined 
             if (_viz.zDimension.Attribute == "Undefined")
             {
@@ -93,7 +98,12 @@
             _viz.width = width;
             _viz.depth = Depth;
             _viz.transform.position = centerGeo;
-         
+            if (HospitalViz != null)
+            {
+                HospitalViz.width = width;
+                HospitalViz.depth = Depth;
+                HospitalViz.transform.position = centerGeo;
+            }
 
 
         }
